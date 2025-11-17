@@ -22,19 +22,27 @@
                 "python.defaultInterpreterPath": ".venv/bin/python",
                 "github.copilot.enable": {
                   "*": false,
-                  "plaintext": false,  
+                  "plaintext": false,
                   "markdown": false,
                   "scminput": false
-                 },   
-                 "github.copilot.enableAutoComplete": false, 
+                 },
+                 "github.copilot.enableAutoComplete": false,
                  "editor.inlineSuggest.enabled": false,
                  "github.copilot.inlineSuggest.enable": false,
                  "github.copilot.chat.enable": false,
                  "github.copilotChat.showInExplorer": false,
-                 "workbench.startupEditor": "readme", 
+                 "workbench.startupEditor": "readme",
                  // Open Markdown files in preview mode by default
                  "workbench.editorAssociations": {
                      "*.md": "vscode.markdown.preview.editor"
+                 },
+                 // Ensure terminals source .bashrc (including ollama aliases)
+                 "terminal.integrated.defaultProfile.linux": "bash",
+                 "terminal.integrated.profiles.linux": {
+                     "bash": {
+                         "path": "bash",
+                         "args": ["-l"]
+                     }
                  }
             },
             "extensions": [
@@ -43,5 +51,6 @@
             ]
         }
     },
-    "postCreateCommand": "bash -i scripts/pysetup.sh py_env && bash -i scripts/startup_ollama.sh"
+    "postCreateCommand": "bash -i scripts/pysetup.sh py_env && bash -i scripts/startup_ollama.sh",
+    "postAttachCommand": "source ~/.ollama_colors.sh 2>/dev/null || true"
 }
