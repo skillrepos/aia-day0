@@ -1,7 +1,7 @@
 # Enterprise AI Accelerator - Day 0
 ## AI Concepts and Readiness
 ## Session labs 
-## Revision 1.1 - 11/17/25
+## Revision 1.2 - 11/21/25
 ## (c) 2025 Tech Skills Transformations
 
 **Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
@@ -17,7 +17,7 @@
 
 # Lab 1 - AI vs ML vs Generative AI vs Data Science: Understanding the Differences Through Practice
 
-**Purpose: Learn the key differences between Data Science, Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL), and Generative AI by seeing how each discipline approaches the same business problem. This hands-on lab uses practical examples and a local language model to demonstrate when and why you'd use each approach.
+**Purpose: Learn the key differences between Data Science, Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL), and Generative AI by seeing how each discipline approaches the same business problem. This hands-on lab uses practical examples and a local language model to demonstrate when and why you'd use each approach.**
 
 <br><br>
 
@@ -36,7 +36,15 @@ Customer Purchase History (Last 6 Months):
 Recent behavior: Customer C browsed "kitchen gadgets" 3 times this week
 ```
 
-We'll explore how **Data Science**, **Traditional AI**, **Machine Learning**, **Deep Learning**, and **Generative AI** each approach this data differently.
+We'll explore how **Data Science**, **Traditional AI**, **Machine Learning**, **Deep Learning**, and **Generative AI** each approach this data differently. 
+
+For the mechanics, there a couple of things to note:
+
+- We'll be using a tool called Ollama to provide access in the Codespace to an LLM
+- We'll be using a small LLM (llama3.2:3b) that was downloaded as part of the setup
+- We'll set different colors for the LLM outupt for each type of approach to help distinguish them among all the output from the lab
+- You can copy and paste the prompts from the gray boxes - be sure and get all of it
+- You do not need to understand all the terms in the output - the goal is to show the different ways the data is processed/leveraged for each type of AI area
 
 <br><br>
 
