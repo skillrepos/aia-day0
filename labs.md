@@ -1,7 +1,7 @@
 # Enterprise AI Accelerator - Day 0
 ## AI Concepts and Readiness
 ## Session labs 
-## Revision 1.3 - 11/21/25
+## Revision 1.5 - 11/21/25
 ## (c) 2025 Tech Skills Transformations
 
 **Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
