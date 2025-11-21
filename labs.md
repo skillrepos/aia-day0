@@ -477,7 +477,7 @@ Review outputs from all five techniques:
 </br></br>
 
 
-# Lab #3 - Interacting with AI Models**
+# Lab #3 - Interacting with AI Models
 
 **Purpose: Learn how to use different approaches to interact with AI models.**
 
