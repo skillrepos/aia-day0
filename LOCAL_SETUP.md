@@ -45,6 +45,9 @@ Then, in the search box at the top of the *Extensions* view, enter "Dev Containe
 
 ![Installing Dev Containers extension](./images/local-2.png?raw=true "Installing Dev Containers extension")
 
+
+Alternatively, you can install the extension from it [page on the Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+
 <br><br>
 
 **5. Use Git to clone this repository down to your machine with a command like the following.**
