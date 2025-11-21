@@ -1,6 +1,8 @@
 # Instructions for setting up a local environment to run labs in place of GitHub Codespace
 
-## NOTE: GitHub Codespaces - as detailed in the README.md file - are the preferred and recommended environment to run the labs in. Use this alternative only if you can't use the Codespace option for some reason. ##
+### NOTE: GitHub Codespaces - as detailed in the README.md file - are the preferred and recommended environment to run the labs in. Use this alternative only if you can't use the Codespace option for some reason. ##
+
+<br><br>
 
 These instructions will guide you through configuring a local environment that you can use to do the labs. 
 
