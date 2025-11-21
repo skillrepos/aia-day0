@@ -1,7 +1,7 @@
 # Enterprise AI Accelerator - Day 0
 ## AI Concepts and Readiness
 ## Session labs 
-## Revision 1.2 - 11/21/25
+## Revision 1.3 - 11/21/25
 ## (c) 2025 Tech Skills Transformations
 
 **Follow the startup instructions in the README.md file IF NOT ALREADY DONE!**
@@ -308,7 +308,7 @@ Try these challenges:
 
 # Lab #2 - Prompt Engineering: Advanced Techniques for Product Review Analysis
 
-**Purpose: Learn how different prompting strategies dramatically affect model accuracy and consistency by analyzing product reviews. This lab demonstrates key prompt engineering techniques including role-based prompting, chain-of-thought reasoning, structured templates, and meta-prompting for real-world sentiment analysis.
+**Purpose: Learn how different prompting strategies dramatically affect model accuracy and consistency by analyzing product reviews. This lab demonstrates key prompt engineering techniques including role-based prompting, chain-of-thought reasoning, structured templates, and meta-prompting for real-world sentiment analysis. (Optional: If you want, you can reuse some of the color commands from lab1 to change color output for different prompt types.)  Remember you can copy and paste the prompts.
 
 <br><br>
 
@@ -459,27 +459,6 @@ Review outputs from all five techniques:
 3. **Structured templates + constraints** ensure systematic analysis AND enforce business requirements
 4. **"Let's think step by step"** is a powerful zero-shot reasoning trigger that works without examples
 5. **Choose techniques based on use case**: Speed vs. accuracy vs. compliance needs
-
-<br><br>
-
-## Bonus Challenges (Optional)
-
-Apply these techniques to other tasks:
-
-1. **Entity Extraction**: Use structured templates to extract named entities (people, places, organizations) from news articles
-2. **Code Review**: Apply role-based + constraint-based prompting for systematic code quality analysis
-3. **Email Triage**: Combine few-shot + self-consistency for classifying support tickets by urgency
-4. **Content Moderation**: Use chain-of-thought reasoning to explain moderation decisions
-
----
-
-## Quick Reference: When to Use Each Technique
-
-- **Just starting?** → Basic Natural Language (Step 1)
-- **Need professional output?** → Role-Based (Step 2)
-- **Need consistency with examples?** → Few-Shot + Chain-of-Thought (Step 3)
-- **Production systems with compliance?** → Structured Templates + Constraints (Step 4)
-- **No examples available?** → Zero-Shot CoT with "Let's think step by step" (Step 5)
 
 <br><br>
 
