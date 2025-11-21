@@ -67,26 +67,35 @@ code .
 
 <br><br>
 
-7. Once you open the folder/project in VS Code, VS Code should detect the devcontainer setup and prompt you about running it as a development container. Click on Ok.
-
+**7. Once you open the folder/project in VS Code, VS Code should detect the devcontainer setup and prompt you about running it as a development container (usually in lower right corner). Click on "Reopen in Container".** 
 
 
 ![Starting in VS Code](./images/local-5.png?raw=true "Starting in VS Code")
 
-<br><br>
+**If you get a popup about "Not all host requirements in devcontainer.json are met by the Docker daemon", you can just click *Continue* and it will probably still be fine.**
 
-
-8. Allow the setup processing to run automatically. (May take up to 10 minutes for some projects).
-
-![Setup](./images/local-6.png?raw=true "Setup")
+![Host requirements](./images/local-6.png?raw=true "Host requirements")
 
 <br><br>
 
-9. Now you are ready to proceed with the labs in your local environment!
 
-![Ready](./images/local-7.png?raw=true "Ready")
+**8. Allow the setup processing to run automatically. (May take up to 10 minutes for some projects).**
 
+![Setup](./images/local-7.png?raw=true "Setup")
 
+<br><br>
+
+**9. When the processing is done, you'll see a message like "Done. Press any key to close the terminal."**
+
+![Done](./images/local-8.png?raw=true "Done")
+
+<br><br>
+
+**10. Once you hit a key, that terminal will go away. To get a new terminal, you can either drag up from the bottom or use the *Terminal* -> *New terminal* command from the VS Code menu.**
+
+![Terminal](./images/local-9.png?raw=true "terminal")
+
+**11. You are now ready to run the labs in your local environment!**
 ---
 
 ## License and Use
