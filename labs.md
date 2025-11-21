@@ -657,6 +657,9 @@ Open claude.ai, chatgpt.com, gemini.google.com or your preferred AI assistant an
 ```
 What are the 5 most important AI developments from the last week that a [YOUR ROLE] in [YOUR INDUSTRY] needs to know, with links to learn more?
 ```
+
+![simple query](./images/aia-0-13.png?raw=true "Simple query")
+
 <br><br>
 
 ## 2: Review the output and note what is useful/not useful.
@@ -665,11 +668,15 @@ What are the 5 most important AI developments from the last week that a [YOUR RO
 
 ## 3: Try out the extended prompt.
 
-Copy and paste the extended prompt from the start of the lab into the AI assistant. 
+Copy and paste the extended prompt from the start of the lab into the AI assistant. Submit it. This will take several minutes to run.
+
+![full query](./images/aia-0-14.png?raw=true "Full query")
 
 <br><br>
 
 ## 4: Review the output and notice differences and details vs the simpler prompt. 
+
+![full query output](./images/aia-0-15.png?raw=true "Full query output")
 
 <br><br>
 
@@ -689,7 +696,13 @@ For Specific Industries
 Filter for developments specifically relevant to [YOUR INDUSTRY: healthcare/finance/retail/etc.]. Include industry-specific use cases and compliance considerations.
 ```
 
+![adding specialization](./images/aia-0-16.png?raw=true "Adding specialization")
+
+<br><br>
+
 ## 6: Review the output with the additional details.
+
+![full report output](./images/aia-0-17.png?raw=true "Full report output")
 
 <br><br>
 
