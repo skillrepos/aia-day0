@@ -499,12 +499,12 @@ ollama list
 
 ## 3. You'll see that it has the llama3.2:3b model available. Let's find out more about this model. Go to https://ollama.com and in the *Search models* box at the top, enter *llama*. In the list that pops up, choose the entry for "llama3.2".
 
-![searching for llama](./images/31ai7.png?raw=true "searching for llama")
+![searching for llama](./images/aia-0-6.png?raw=true "searching for llama")
 
 <br><br>
 
 ## 4. This will put you on the specific page about that model. Scroll down and scan the various information available about this model.
-![reading about llama3.2](./images/31ai8.png?raw=true "reading about llama3.2")
+![reading about llama3.2](./images/aia-0-7.png?raw=true "reading about llama3.2")
 
 <br><br>
 
@@ -514,6 +514,8 @@ ollama list
 ollama run llama3.2
 ```
 
+![running llama3.2](./images/aia-0-9.png?raw=true "running llama3.2")
+
 <br><br>
 
 ## 6. Now you can query the model by inputting text at the *>>>Send a message (/? for help)* prompt.  Let's ask it about what the weather is in Paris. What you'll see is it telling you that it doesn't have access to current weather data and suggesting some ways to gather it yourself.
@@ -522,7 +524,7 @@ ollama run llama3.2
 What's the current weather in Paris?
 ```
 
-![answer to weather prompt and response](./images/31ai10.png?raw=true "answer to weather prompt and response")
+![answer to weather prompt and response](./images/aia-0-8.png?raw=true "answer to weather prompt and response")
 
 <br><br>
 
@@ -540,7 +542,7 @@ curl http://localhost:11434/api/generate -d '{
 
 ## 8. This will take a minute or so to run. You should see a long text response . You can try out some other prompts/queries if you want.
 
-![query response](./images/aiapps37.png?raw=true "Query response")
+![query response](./images/aia-0-10.png?raw=true "Query response")
 
 <br><br>
 
@@ -557,6 +559,9 @@ You should see a simple script that:
 - Sends it to Ollama
 - Displays the response
 
+
+![running program](./images/aia-0-12.png?raw=true "Running program")
+
 <br><br>
 
 ## 10. Now you can run the script with the command below. 
@@ -569,6 +574,8 @@ python simple_ollama.py
 
 ## 11. When prompted, enter a question like "What is the capital of France?" and press Enter. You should see the model's response printed to the terminal. This demonstrates how easy it is to integrate Ollama into a Python application. Feel free to try other prompts. 
 
+
+![running program](./images/aia-0-11.png?raw=true "Running program")
 
 <p align="center">
 <b>[END OF LAB]</b>
